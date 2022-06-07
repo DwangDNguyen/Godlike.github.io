@@ -1,0 +1,83 @@
+/* Tablet and mobile */
+@media (max-width: 1023px){
+      .contact{
+            display: none;
+      }
+      .header__heading-menu{
+            display: none;
+      }
+      .header__heading-menu-icon{
+            padding-left: 300px;
+      }
+      .header-bars{
+            display: block;
+      }
+
+
+
+
+      
+}
+
+
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+
+      .container__intro-content{
+            top: 15%;
+      }
+      .container__intro-option{
+            top: 60%;
+      }
+      .demo{
+            top: 8%;
+            left: 16%;
+      }
+      .container__demo-option-item{
+            width: 260px;
+      }
+      .container__demo-option-text-main{
+            left: 29%;
+            font-size: 20px;
+      }
+      .container__demo-option-text-game{
+            left: 14%;
+            font-size: 20px;
+      }
+      .first-space{
+            padding-bottom: 0;
+      }
+      .space{
+            padding: 0;
+      }
+      .container__product-detail{
+            padding: 0;
+      }
+      .container__product-detail-item{
+            margin-left: 60px;
+            padding: 30px 0;
+      }
+      .footer,
+      .subcribe{
+            margin-top: -1px;
+      }
+}
+
+
+
+/* Mobile */
+@media (max-width: 739px){
+      .header__logo{
+            display: none;
+      }
+      .header__heading-content{
+            display: block;
+      }
+      .header__heading-menu-icon{
+            padding-left: 0;
+      }
+      .header__heading-menu-option{
+            justify-content: space-between;
+      }
+}
